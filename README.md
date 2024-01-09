@@ -1,6 +1,6 @@
 # Golang PostgreSQL CRUD Example
 
-This Golang project demonstrates the basic setup for working with a PostgreSQL database, handling migrations using `golang-migrate`, and performing CRUD operations using the Gorm ORM library.
+This Golang project exemplifies the fundamental configuration for interacting with a PostgreSQL database. It encompasses aspects such as managing migrations using golang-migrate and executing CRUD operations through the Gorm ORM library.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ Follow the official instructions to [install PostgreSQL](https://www.postgresql.
 
 ### Create Database and User
 
-Create a PostgreSQL database and user for the project. Replace `[Your Database Name]` and `[Your User]` with your preferred names.
+Establish a PostgreSQL database and user for the project, substituting [Your Database Name] and [Your User] with your chosen identifiers.
 
 ```sql
 CREATE DATABASE [Your Database Name];
@@ -35,8 +35,7 @@ ALTER ROLE [Your User] SET default_transaction_isolation TO 'read committed';
 ALTER ROLE [Your User] SET timezone TO 'UTC';
 ```
 ## Connecting to the Database in Golang
-Use the provided Golang script to connect to your PostgreSQL database. Ensure you have the required dependencies installed.
-package main
+Utilize the provided Golang script to establish a connection to the PostgreSQL database, ensuring the necessary dependencies are installed.
 
 import (
 	"database/sql"
